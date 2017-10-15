@@ -20,12 +20,12 @@ cd $HOME/arch
         echo "Downloading arch-image."
 	echo
         if [ "$(uname -m)" = "aarch64" ];then
-            wget -c http://mirror.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz -O arch.tar.gz
+            wget -c http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz -O arch.tar.gz
         elif [ "$(uname -m)" = "armv7l" ];then
-            wget -c http://mirror.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz -O arch.tar.gz
+            wget -c http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz -O arch.tar.gz
         else
             echo "Unknown architecture version for this setup script! There is hope."
-            echo "Please check for other available architectures at http://mirror.archlinuxarm.org/os/"
+            echo "Please check for other available architectures at http://os.archlinuxarm.org/os/"
             exit 1
         fi
     echo "While decompressing the arch image tar will probably echo, "tar: Ignoring unknown extended header keyword 'SCHILY.fflags'" && "tar: Exiting with failure status due to previous errors""
