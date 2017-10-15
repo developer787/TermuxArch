@@ -13,7 +13,7 @@ sleep 2
 echo "When successfully completed, you will be at the bash prompt in Arch Linux in Termux."
 sleep 1
 pkg up
-pkg install proot tar
+pkg install proot tar wget
 echo
 mkdir -p $HOME/arch
 cd $HOME/arch
