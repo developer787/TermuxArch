@@ -25,7 +25,7 @@ cd $HOME/arch
             wget -c http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz -O arch.tar.gz
         else
             echo "Unknown architecture version for this setup script! There is hope."
-            echo "Please check for other available architectures at http://mirror.archlinuxarm.org/os/"
+            echo "Please check for other available architectures at http://os.archlinuxarm.org/os/"
             exit 1
         fi
     echo "While decompressing the arch image tar will probably echo, "tar: Ignoring unknown extended header keyword 'SCHILY.fflags'" && "tar: Exiting with failure status due to previous errors""
