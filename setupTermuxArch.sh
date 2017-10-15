@@ -41,5 +41,5 @@ proot --link2symlink -0 -r ~/arch -b /dev/ -b /sys/ -b /proc/ -b /storage/ -b $H
 EOM
 echo "Making $bin executable."
 chmod 700 $bin
-echo "Launch Arch Linux in Termux with ./arch/$bin"
+echo "Launch Arch Linux in Termux with ./arch/$bin for future sessions."
 $HOME/arch/$bin
